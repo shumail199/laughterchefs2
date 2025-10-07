@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laughter Chefs 2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #ff914d, #ffcc33);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* --- Navbar --- */
+    nav {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(8px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+    }
+    .logo {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    nav ul li a:hover {
+      color: #ffe8b3;
+    }
+
+    /* --- Hero Section --- */
+    .hero {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 100px 20px 50px;
+    }
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 20px;
+      object-fit: cover;
+      box-shadow: 0 0 25px rgba(255,255,255,0.4);
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      max-width: 400px;
+    }
+
+    /* --- Buttons --- */
+    .btn {
+      background: #fff;
+      color: #ff7b00;
+      padding: 14px 34px;
+      font-weight: 600;
+      font-size: 1rem;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: 0.3s;
+      box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+    }
+    .btn:hover {
+      background: #ffe5b4;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: rgba(255,255,255,0.1);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">🍳 Laughter Chefs 2</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#download">Download</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="https://cdn-icons-png.flaticon.com/512/3081/3081986.png" alt="App Logo">
+    <h1>Welcome to Laughter Chefs 2</h1>
+    <p>Cook, laugh, and have fun! Download the latest version of our Android app below.</p>
+    <a id="downloadBtn" class="btn" href="#">⬇️ Download App</a>
+  </section>
+
+  <footer>
+    © 2025 Laughter Chefs 2 — All rights reserved.
+  </footer>
+
+  <script>
+    // Redirect user to robloxdownload.mom when button clicked
+    document.getElementById("downloadBtn").addEventListener("click", function() {
+      window.location.href = "https://robloxdownload.mom";
+    });
+  </script>
+</body>
+</html>
