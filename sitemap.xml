@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.example.com/</loc>
+    <loc>https://anupama.asia/</loc>
     <lastmod>2025-10-22</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://www.example.com/about.html</loc>
+    <loc>https://anupama.asia/about.html</loc>
     <lastmod>2025-10-20</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.example.com/contact.html</loc>
+    <loc>https://anupama.asia/contact.html</loc>
     <lastmod>2025-10-19</lastmod>
     <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://anupama.asia/latest-episode.html</loc>
+    <lastmod>2025-10-22</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://anupama.asia/all-episodes.html</loc>
+    <lastmod>2025-10-21</lastmod>
+    <priority>0.85</priority>
   </url>
 </urlset>
